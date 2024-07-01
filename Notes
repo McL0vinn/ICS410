@@ -1,9 +1,9 @@
 Book 1
-
-
-
-
-
+Actuator is the true bridge between cyber and physical
+Supervisory system is usually something that allows humans to  supervise the control loop ( but can also be something non-human e.g server)
+Jitter = intermittent/ infrequent / incosistent delay
+The Purdue Model does NOT have security reccomendations
+ISA/IEC 62443 ( a family of documents) is the international standard body for reccomendation how to do Cybersecurity in OT systems
 
 
 
