@@ -4,7 +4,7 @@ Supervisory system is usually something that allows humans to  supervise the con
 Jitter = intermittent/ infrequent / incosistent delay
 The Purdue Model does NOT have security reccomendations
 ISA/IEC 62443 ( a family of documents) is the international standard body for reccomendation how to do Cybersecurity in OT systems
-
+DCS use controllers, PLC ARE controllers. But they can both be assumed to be Controllers.There are lots of devices that act as controllers and are neither a DCS or a PLC.
 
 
 Book 2
