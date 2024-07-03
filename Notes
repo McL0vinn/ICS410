@@ -5,7 +5,12 @@ Jitter = intermittent/ infrequent / incosistent delay
 The Purdue Model does NOT have security reccomendations
 ISA/IEC 62443 ( a family of documents) is the international standard body for reccomendation how to do Cybersecurity in OT systems
 DCS use controllers, PLC ARE controllers. But they can both be assumed to be Controllers.There are lots of devices that act as controllers and are neither a DCS or a PLC.
+Basic I/O = no protocols involved, one wire per sensor/actuator, raw measurements across the wire.
+Smart I/O =  intelligence involved, fieldbus protocols , 
+Anything speaking fieldbus protocols, means it has firmware thus attackable.
 
+Controller talking to Controller / field device = fieldbus protocol
+Supervisory talking to Supervisory / Controller = SCADA protocol
 
 Book 2
 
