@@ -11,6 +11,13 @@ Anything speaking fieldbus protocols, means it has firmware thus attackable.
 
 Controller talking to Controller / field device = fieldbus protocol
 Supervisory talking to Supervisory / Controller = SCADA protocol
+tags=variables / supervisory equipment can read and in some cases write those tags which is how supervisory influences or modifies the process
+Tgas are the primary attack vector for PLCs
+There two primary ways for an attacker to attack a PLC: a) they can either change the tag information which influences the process b) reprogram it.
+Supervisory systems = supervising and controlling the processes below them.
+Analytics servers = one way flow of information. pull information from processes and analyzes it but DOES NOT push changes downstream.
+
+
 
 Book 2
 
